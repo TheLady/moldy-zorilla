@@ -1,24 +1,12 @@
-The questions that this project will raise are:
-- how do we write packages that are easy to understand and simple to use out of the box?
-- how to publish a package to NPM?
-## Specifications
-### Required
-- [ ] Includes a list of commonly used methods to rewrite in ES2015.
-Installing node.js
-fixing npm permissions
-installing npm packages locally
-
-- [ ] Includes a README that describes each method and provides an example of use. 
-- [ ] Package is published with NPM.
-- [ ] Includes tests for all methods described.
-
-
 
 ### Team
 Candida and Briana
 # moldy-zorilla
 NPM Module for common utility Javascript functions
 
+The questions that this project will raise are:
+- how do we write packages that are easy to understand and simple to use out of the box?
+- how to publish a package to NPM?
 
 
 This goal is important for:
@@ -34,14 +22,22 @@ The questions that this project will raise are:
 
 ## Specifications
 ### Required
+
 - [ ] Includes a list of commonly used methods to rewrite in ES2015
-- []  Includes a README that describes each method and provides an example of use
+- [ ] Installing node.js
+- [ ] fixing npm permissions
+- [ ] installing npm packages locally
+- [ ] Includes a README that describes each method and provides an example of use. 
+- [ ] Package is published with NPM.
+- [ ] Includes tests for all methods described.
+- [ ] Includes a list of commonly used methods to rewrite in ES2015
+- [ ]  Includes a README that describes each method and provides an example of use
 - [ ] Package is published with NPM
 - [ ] Includes tests for all methods described
 - [ ] Write a blog that discusses higher-level code
 - [ ] Use Treehouse tutorials to set a foundation to start creating modules
 - [ ] Build an easily navigable website interface that describes what we did
-- [ ] User can navigate to:
+User can navigate to:
 - [ ] Homepage
 - [ ] About us
 - [ ] Each page shares a consistent layout
@@ -53,7 +49,6 @@ The questions that this project will raise are:
 ## Stretch
 - [ ] Site is mobile responsive and easily viewed on a phone
 
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 *Copying another website's content is fine for practicing, but publishing it would likely infringe upon the original site's copyright.
 
@@ -61,7 +56,7 @@ The questions that this project will raise are:
 ## Quality Rubric
 
 **Well formatted code**
-
+- [ ]
 
 **Clear and readable code**
 - [ ] Variables, functions, css classes, etc. are meaningfully named (no comments exist in code to explain functionality - the names serve that function) [15%]
