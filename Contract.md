@@ -12,7 +12,7 @@ installing npm packages locally
 - [ ] Package is published with NPM.
 - [ ] Includes tests for all methods described.
 
-
+  
 
 ### Team
 Candida and Briana
