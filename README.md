@@ -1,3 +1,4 @@
+Candida and Briana
 # moldy-zorilla
 NPM Module for common utility Javascript functions
 ## Description
