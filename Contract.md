@@ -35,9 +35,7 @@ The questions that this project will raise are:
 ## Specifications
 ### Required
 - [ ] Includes a list of commonly used methods to rewrite in ES2015
-- []  Includes a README that describes each method and provides an example of use
 - [ ] Package is published with NPM
-- [ ] Includes tests for all methods described
 - [ ] Write a blog that discusses higher-level code
 - [ ] Use Treehouse tutorials to set a foundation to start creating modules
 - [ ] Build an easily navigable website interface that describes what we did
