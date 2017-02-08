@@ -100,3 +100,9 @@ _.result(object, 'stuff');
 => "nonsense"
 _.result(object, 'meat', 'ham');
 => "ham"
+             
+
+
+
+
+
