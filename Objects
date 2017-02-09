@@ -1,7 +1,9 @@
-Objects
+## Functions
+
+### Objects
 
 1. isElement
-(isElement_.isElement(object) 
+(isElement_.isElement(object)
 Returns true if object is a DOM element.
 
 _.isElement(jQuery('body')[0]);
@@ -9,21 +11,21 @@ _.isElement(jQuery('body')[0]);
 )
 
 2. isFunction
-isFunction_.isFunction(object) 
+isFunction_.isFunction(object)
 Returns true if object is a Function.
 
 _.isFunction(alert);
 => true
 
 3. isNumber
-isNumber_.isNumber(object) 
+isNumber_.isNumber(object)
 Returns true if object is a Number (including NaN).
 
 _.isNumber(8.4 * 5);
 => true
 
 4. isError
-isError_.isError(object) 
+isError_.isError(object)
 Returns true if object inherits from an Error.
 
 try {
@@ -34,7 +36,7 @@ try {
 => true
 
 5. isArray
-isArray_.isArray(object) 
+isArray_.isArray(object)
 Returns true if object is an Array.
 
 (function(){ return _.isArray(arguments); })();
@@ -43,7 +45,7 @@ _.isArray([1,2,3]);
 => true
 
 6. isArguments
-isArguments_.isArguments(object) 
+isArguments_.isArguments(object)
 Returns true if object is an Arguments object.
 
 (function(){ return _.isArguments(arguments); })(1, 2, 3);
@@ -52,10 +54,10 @@ _.isArguments([1,2,3]);
 => false
 
 
-Collections
+### Collections
 
 1. Contains
-contains_.contains(list, value, [fromIndex]) Alias: includes 
+contains_.contains(list, value, [fromIndex]) Alias: includes
 Returns true if the value is present in the list. Uses indexOf internally, if list is an Array. Use fromIndex to start your search at a given index.
 
 _.contains([1, 2, 3], 3);
@@ -64,7 +66,7 @@ _.contains([1, 2, 3], 3);
 Arrays
 
 1. sortedIndex
-sortedIndex_.sortedIndex(list, value, [iteratee], [context]) 
+sortedIndex_.sortedIndex(list, value, [iteratee], [context])
 Uses a binary search to determine the index at which the value should be inserted into the list in order to maintain the list's sorted order. If an iteratee function is provided, it will be used to compute the sort ranking of each value, including the value you pass. The iteratee may also be the string name of the property to sort by (eg. length).
 
 _.sortedIndex([10, 20, 30, 40, 50], 35);
@@ -77,7 +79,7 @@ _.sortedIndex(stooges, {name: 'larry', age: 50}, 'age');
 Function
 
 1. wrap
-wrap_.wrap(function, wrapper) 
+wrap_.wrap(function, wrapper)
 Wraps the first function inside of the wrapper function, passing it as the first argument. This allows the wrapper to execute code before and after the function runs, adjust the arguments, and execute it conditionally.
 
 var hello = function(name) { return "hello: " + name; };
@@ -90,7 +92,7 @@ hello();
 utility
 
 1. results
-result_.result(object, property, [defaultValue]) 
+result_.result(object, property, [defaultValue])
 If the value of the named property is a function then invoke it with the object as context; otherwise, return it. If a default value is provided and the property doesn't exist or is undefined then the default will be returned. If defaultValue is a function its result will be returned.
 
 var object = {cheese: 'crumpets', stuff: function(){ return 'nonsense'; }};
@@ -100,7 +102,7 @@ _.result(object, 'stuff');
 => "nonsense"
 _.result(object, 'meat', 'ham');
 => "ham"
-             
+
 
 
 
