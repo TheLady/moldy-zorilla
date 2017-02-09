@@ -10,7 +10,7 @@ The questions that this project will raise are:
 
 
 This goal is important for:
-- learning JavaScript 
+- learning JavaScript
 - understanding how developer write higher-level code for others to use
 - understanding ES2015
 
@@ -23,11 +23,13 @@ The questions that this project will raise are:
 ## Specifications
 ### Required
 
+
+
 - [ ] Includes a list of commonly used methods to rewrite in ES2015
 - [ ] Installing node.js
 - [ ] fixing npm permissions
 - [ ] installing npm packages locally
-- [ ] Includes a README that describes each method and provides an example of use. 
+- [ ] Includes a README that describes each method and provides an example of use.
 - [ ] Package is published with NPM.
 - [ ] Includes tests for all methods described.
 - [ ] Includes a list of commonly used methods to rewrite in ES2015
