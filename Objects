@@ -1,6 +1,4 @@
-## Functions
-
-### Objects
+Objects
 
 1. isElement
 (isElement_.isElement(object)
@@ -9,6 +7,8 @@ Returns true if object is a DOM element.
 _.isElement(jQuery('body')[0]);
 => true
 )
+
+
 
 2. isFunction
 isFunction_.isFunction(object)
@@ -54,7 +54,7 @@ _.isArguments([1,2,3]);
 => false
 
 
-### Collections
+Collections
 
 1. Contains
 contains_.contains(list, value, [fromIndex]) Alias: includes
