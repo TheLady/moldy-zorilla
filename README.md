@@ -78,7 +78,7 @@ _.isArguments([1,2,3]);
 
 ### Collections
 
-[ ] Contains
+[x] Contains
 contains_.contains(list, value, [fromIndex]) Alias: includes
 Returns true if the value is present in the list. Uses indexOf internally, if list is an Array. Use fromIndex to start your search at a given index.
 
@@ -87,7 +87,7 @@ _.contains([1, 2, 3], 3);
 
 Arrays
 
-- [ ] sortedIndex
+- [x] sortedIndex
 sortedIndex_.sortedIndex(list, value, [iteratee], [context])
 Uses a binary search to determine the index at which the value should be inserted into the list in order to maintain the list's sorted order. If an iteratee function is provided, it will be used to compute the sort ranking of each value, including the value you pass. The iteratee may also be the string name of the property to sort by (eg. length).
 
