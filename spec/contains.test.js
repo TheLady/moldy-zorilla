@@ -6,7 +6,6 @@ import contains from '../src/contains'
 
 const radArray = [1,2,3,4,5]
 describe('#contains()', function() {
-  it.only('should return true when the element is present in the array', function() {
     expect(contains(4, radArray)).to.eql(true)
   });
 
