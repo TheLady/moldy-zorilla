@@ -2,17 +2,18 @@ import chai, {expect} from 'chai'
 import chaiChange from 'chai-change'
 import contains from '../src/contains'
 
-
-
 const radArray = [1,2,3,4,5]
-describe('#contains()', function() {
-    expect(contains(4, radArray)).to.eql(true)
-  });
+describe.only('contains()', function() {
+
+	it('should do the things', function() {
+
+      expect(contains(4, radArray)).to.eql(true)
+	})
+ });
 
   it('should return false when the element is not present in the array', function() {
     expect(contains(6, radArray)).to.eql(false)
   });
-});
 
 //returns false if the element doesn't exist in the array
 //  const array = [1,2,3,4,5]
